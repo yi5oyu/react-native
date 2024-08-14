@@ -1,5 +1,5 @@
 
-export function B(){
+export function A(){
 
     return(
         <div>
@@ -8,9 +8,8 @@ export function B(){
     );
 }
 
-// export default C
-//
-export default B
+// export default B (function 함수명 과 export 이름은 같아야함)
+export default A
 
 /*
 // 1. default export
