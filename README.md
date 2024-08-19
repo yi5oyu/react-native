@@ -312,3 +312,9 @@ DOM 요소에 직접 접근할 수 있음
     
     inputRef.current.focus();
     inputRef.current.style.background = "yellow";
+
+## React-native
+
+### React-native-web
+
+[> ](https://necolas.github.io/react-native-web/docs/)  
