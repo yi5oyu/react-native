@@ -21,10 +21,11 @@ import { View, Text, StyleSheet } from 'react-native-web';
 //import S19 from './components/react/S';
 //import T20 from './components/react/T';
 //import U21 from './components/react/U';
-import HelloWorld from './components/react-native/HelloWorld'
-import NativeCompo from './components/react-native/NativeCompo'
-import V from './components/react-native/ViewExemple'
-import TI from './components/react-native/TextInputExemple'
+//import HelloWorld from './components/react-native/HelloWorld'
+//import NativeCompo from './components/react-native/NativeCompo'
+//import V from './components/react-native/ViewExemple'
+//import TI from './components/react-native/TextInputExemple'
+import Login from './components/Login'
 import axios from 'axios';
 
 const App = () => {
@@ -47,12 +48,14 @@ axios.get('http://localhost:8080/hi')
 
   return (
     <>
-        <Text>{data}</Text>
-        <HelloWorld />
-        <NativeCompo />
-        <V />
-        <TI />
+        <Login/>
     </>
+
+//        <HelloWorld />
+//        <NativeCompo />
+//        <V />
+//        <TI />
+
 //    <View style={styles.container}>
 //      <Text style={styles.welcome}>Welcome to React Native Web!</Text>
 //      <Text style={styles.instructions}>To get started, edit App.web.js</Text>
