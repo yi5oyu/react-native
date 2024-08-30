@@ -51,8 +51,11 @@ VCS
 ### Cross-Platform Web 추가
 리액트 애플리케이션의 진입점 index.js 수정   
 
-> Web에서만 사용할 경우 index.web.js 와 App.web.js로 분리해서 사용할 수 있음
+> Web에서만 사용할 경우 index.web.js 와 App.web.js로 분리해서 사용할 수 있음  
+> webpack.config.js에 정의된 index.html 파일 생성
 
+[> index.html 파일](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/index.html)  
+[> App.web.js 파일](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/App.web.js)  
 [> index.js 파일](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/index.js)  
 [> index.web.js 파일](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/index.web.js)  
 [> 진입점(entry) 오류](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/error/%EC%A7%84%EC%9E%85%EC%A0%90)
@@ -61,6 +64,20 @@ VCS
     npm run web
 
 package.json에 명시된 "web"에~~
+
+### backend(spring boot) 연동
+
+- **axios 패키지 설치**
+> npm install axios
+- **package.json 프록시 설정 추가**
+> "proxy": "http://localhost:8080",
+- **App.js import axios**
+> import axios from 'axios'  
+> 
+> axios.get('http://localhost:8080/hi')  
+> .then(response => { setData(response.data) })  
+
+[> 자세히 보기](https://github.com/yi5oyu/Study/blob/main/React%20Native/Spring%20boot%20%EC%97%B0%EB%8F%99)  
 
 ## React.js
 React-native에 앞서 react ~~~
