@@ -23,6 +23,7 @@ VCS
 ### Web 개발을 위한 패키지 설치
     npm install react-native-web@^0.19.12 react-dom@18.1.0
     npm install webpack webpack-cli webpack-dev-server babel-loader babel-plugin-transform-flow-strip-types file-loader html-webpack-plugin --save-dev
+    npm install @react-navigation/native @react-navigation/stack react-native-screens react-native-gesture-handler
 
 > package.json 파일을 보고 react 와 같은 react-dom 버전 설치해야함
 
