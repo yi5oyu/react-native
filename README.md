@@ -1,5 +1,11 @@
 # React-Native
 
+- React 기반    
+JavaScript와 React를 이용해 네이티브 모바일 애플리케이션을 만들 수 있음    
+하나의 코드베이스로 iOS와 Android 플랫폼 모두에서 동작하는 애플리케이션을 개발할 수 있음   
+ 
+- 크로스 플랫폼 개발
+  
 ## 환경설정 (Setting up)
 [> React-Native-Cli 기반 환경설정](https://github.com/yi5oyu/Study/blob/main/React%20Native/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/React-Native-Cli)        
 
@@ -13,14 +19,13 @@
  react-native가 생성된 frontend 폴더에 .git 폴더 생성됨   
  상위 폴더(react-native)를 git repository에 등록하려면 하위폴더(frontend)에 생성된 .git 폴더 삭제해야함    
 
-VCS
-
 ### Git hub
     Repository 생성 > git init > git add . > git commit -m "프로젝트 생성" > git remote add origin https://github.com/<github_ID>/<reposotory_name>.git > git push -u origin master
 
-.git 폴더가 없는 경우 git init으로 생성
+> .git 폴더가 없는 경우 git init으로 생성
 
 ### Web 개발을 위한 패키지 설치
+    react-native 0.70 버전과 호환되는 패키지
     npm install react-native-web@^0.19.12 react-dom@18.1.0
     npm install webpack webpack-cli webpack-dev-server babel-loader babel-plugin-transform-flow-strip-types file-loader html-webpack-plugin --save-dev
     npm install @react-navigation/native @react-navigation/stack react-native-screens react-native-gesture-handler
@@ -61,10 +66,20 @@ VCS
 [> index.web.js 파일](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/index.web.js)  
 [> 진입점(entry) 오류](https://github.com/yi5oyu/Study/blob/main/React%20Native/Web/error/%EC%A7%84%EC%9E%85%EC%A0%90)
 
-### 프로젝트 실행
-    npm run web
+### 스크립트  
 
-package.json에 명시된 "web"에~~
+- `npm run android`   
+  Android 앱 실행
+- `npm run ios`
+  iOS 앱 실행
+- `npm start`
+  개발 서버 시작
+- `npm test`
+  테스트 실행
+- `npm run lint`
+  lint 검사 시작
+- `npm run web`    
+   web 버전 실행
 
 ### backend(spring boot) 연동
 
@@ -79,6 +94,17 @@ package.json에 명시된 "web"에~~
 > .then(response => { setData(response.data) })  
 
 [> 자세히 보기](https://github.com/yi5oyu/Study/blob/main/React%20Native/Spring%20boot%20%EC%97%B0%EB%8F%99)  
+
+## React-native
+
+### React-native-web
+
+#### Login.jsx
+
+#### SignUp.jsx
+
+[> React Native for Web](https://necolas.github.io/react-native-web/docs/)  
+
 
 <!--
 ## React.js
@@ -333,13 +359,3 @@ DOM 요소에 직접 접근할 수 있음
     inputRef.current.style.background = "yellow";
 
 -->
-
-## React-native
-
-### React-native-web
-
-####Login.jsx
-
-####SignUp.jsx
-
-[> ](https://necolas.github.io/react-native-web/docs/)  
