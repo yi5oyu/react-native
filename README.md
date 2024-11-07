@@ -80,6 +80,7 @@ package.json에 명시된 "web"에~~
 
 [> 자세히 보기](https://github.com/yi5oyu/Study/blob/main/React%20Native/Spring%20boot%20%EC%97%B0%EB%8F%99)  
 
+<!--
 ## React.js
 React-native에 앞서 react ~~~
 
@@ -330,6 +331,8 @@ DOM 요소에 직접 접근할 수 있음
     
     inputRef.current.focus();
     inputRef.current.style.background = "yellow";
+
+-->
 
 ## React-native
 
