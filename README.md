@@ -2,6 +2,23 @@
     JavaScript와 React를 이용해 네이티브 모바일 애플리케이션을 만들 수 있음    
     실제 네이티브 컴포넌트를 사용하여 UI를 렌더링
 
+## 목차
+- [React-Native](#react-native)
+  - [목차](#목차)
+  - [환경설정](#환경설정)
+    - [프로젝트 생성](#프로젝트-생성)
+    - [Git hub](#git-hub)
+  - [Cross-Platform](#cross-platform)
+    - [**WEB**](#web)
+      - [Web 개발을 위한 패키지 설치](#web-개발을-위한-패키지-설치)
+      - [설정 파일 수정](#설정-파일-수정)
+  - [backend(spring boot) 연동](#backendspring-boot-연동)
+  - [Components](#components)
+    - [네이티브 컴포넌트](#네이티브-컴포넌트)
+    - [Example](#example)
+      - [Login.jsx](#loginjsx)
+      - [SignUp.jsx](#signupjsx)
+  - [스크립트](#스크립트)
   
 ## 환경설정
 [> React-Native-Cli 기반 환경설정](https://github.com/yi5oyu/Study/blob/main/React%20Native/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/React-Native-Cli)        
@@ -145,6 +162,7 @@ axios.get('http://localhost:8080/hi')
 [> SignUp.jsx](https://github.com/yi5oyu/Study/blob/main/React%20Native/Components/SignUp.jsx)
 
 ## 스크립트  
+    package.json > scripts
 
 - `npm run android`   
   Android 앱 실행  
